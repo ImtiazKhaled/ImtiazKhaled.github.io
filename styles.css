@@ -2,6 +2,7 @@ html{
     background-color: #274555; 
 }
 header{
+    height: 10%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
@@ -9,12 +10,15 @@ header{
     text-align: center;
 }
 body{
+    min-height: 70%;
+    height: 70%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:  #fdc23e;
     padding: 20px;
     border-radius: 20px;
 }
 footer{
+    height: 10%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
@@ -34,4 +38,27 @@ a:hover{
 }
 .bottom{
     word-spacing: 20em;
+}
+.logo{
+    padding: 10px;
+    height: 15em;
+    width: 15em; 
+    margin: auto;
+    align-content: center;
+}
+.roundedBox{
+    border-radius: 30px;
+    background-color: #fdc23e;
+    min-width: 48%;
+    max-width: 48%;
+    margin: 1%;
+}
+.description{
+    text-align: center;
+    padding: 10px;
+}
+.listProjects{
+    color: #274555;
+    display: flex;
+    flex-direction: row;
 }
