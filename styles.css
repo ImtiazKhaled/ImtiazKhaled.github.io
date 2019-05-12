@@ -19,10 +19,19 @@ footer{
     text-align: center;
 }
 a{
-    font-size: 1em;
+    padding: 30px;
+    font-size: 2em;
     color: #fdc23e;
     text-decoration: none;
 }
+a:hover{
+    color:  #ff7761;
+}
 .active{
     color: #f9a11b;
+    text-decoration: underline;
+
+}
+.bottom{
+    word-spacing: 20em;
 }
