@@ -5,9 +5,9 @@ header{
     height: 10%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #fdc23e;
-    text-align: center;
+    text-align: left;
 }
 body{
     min-height: 70%;
@@ -34,10 +34,6 @@ a:hover{
 .active{
     color: #f9a11b;
     text-decoration: underline;
-
-}
-.bottom{
-    word-spacing: 20em;
 }
 .logo{
     padding: 10px;
@@ -61,4 +57,15 @@ a:hover{
     color: #274555;
     display: flex;
     flex-direction: row;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact{
+    padding: 30px;
+    font-size: 2em;
+    color: #fdc23e;
+    text-decoration: none;  
 }
